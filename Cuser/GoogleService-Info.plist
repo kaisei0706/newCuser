@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>217847770123-tpid9klbktdhl2aurh0hu5dnqg2fn3lo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.217847770123-tpid9klbktdhl2aurh0hu5dnqg2fn3lo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDz0Iz4fyichta9u_-Wo0sY-YBFeI3JRCo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>217847770123</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jp.techacademy.kaisei.iwata.Cuser</string>
+	<key>PROJECT_ID</key>
+	<string>cuser-d8be9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cuser-d8be9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:217847770123:ios:16d53d3299ea6b66c62b0e</string>
+</dict>
+</plist>
