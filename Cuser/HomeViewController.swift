@@ -38,23 +38,35 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return 1
     }
     
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        guard let cell = cell as? STListTableViewCell else { return }
+        
+        //ShopTableViewCell.swiftで設定したメソッドを呼び出す
+        cell.setCollectionViewDataSourceDelegate(dataSourceDelegate: self, forRow: indexPath.row)
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // セルを取得してデータを設定する
         let cell = stTableView.dequeueReusableCell(withIdentifier: "STListTableViewCell", for: indexPath) as! STListTableViewCell
         
         return cell
     }
-    
-    
 
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelegate{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 1
     }
-    */
+    
+    
 
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
+
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "STCollectionViewCell", for: indexPath) as! STCollectionViewCell
+        cell.stImageView.image = UIImage(named:"IMG_0527")
+        return cell
+
+    }
 }

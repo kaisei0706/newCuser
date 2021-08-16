@@ -52,9 +52,12 @@ class STCollectionViewController: UICollectionViewController {
         return cell
     }
     
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
-//    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        // 横方向のスペース調整
+        let cellSize:CGFloat = self.view.bounds.width
+        // 正方形で返すためにwidth,heightを同じにする
+        return CGSize(width: cellSize, height: cellSize)
+    }
       
 
     // MARK: UICollectionViewDelegate

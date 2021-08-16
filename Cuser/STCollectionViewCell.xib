@@ -19,6 +19,7 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="flm-9P-jat">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
                         <constraints>
+                            <constraint firstAttribute="width" constant="414" id="cwC-nt-EQh"/>
                             <constraint firstAttribute="width" secondItem="flm-9P-jat" secondAttribute="height" multiplier="1:1" id="xbP-bz-Qbz"/>
                         </constraints>
                     </imageView>
