@@ -11,9 +11,10 @@
 		A323FC9826C8EA56002576FE /* STCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A323FC9626C8EA56002576FE /* STCollectionViewCell.xib */; };
 		A35BB8B926C6441900E9FC54 /* STData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35BB8B826C6441900E9FC54 /* STData.swift */; };
 		A35BB8BB26C65F3700E9FC54 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A35BB8BA26C65F3700E9FC54 /* GoogleService-Info.plist */; };
+		A39D5C2326C906D600FB0E78 /* STCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39D5C2226C906D600FB0E78 /* STCollectionViewController.swift */; };
+		A39D5C2526C949A600FB0E78 /* STTestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39D5C2426C949A600FB0E78 /* STTestCollectionViewCell.swift */; };
 		A3E4EBCD26C36C0200D7DFA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4EBCC26C36C0200D7DFA6 /* AppDelegate.swift */; };
 		A3E4EBCF26C36C0200D7DFA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4EBCE26C36C0200D7DFA6 /* SceneDelegate.swift */; };
-		A3E4EBD126C36C0200D7DFA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4EBD026C36C0200D7DFA6 /* ViewController.swift */; };
 		A3E4EBD426C36C0200D7DFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E4EBD226C36C0200D7DFA6 /* Main.storyboard */; };
 		A3E4EBD626C36C0500D7DFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E4EBD526C36C0500D7DFA6 /* Assets.xcassets */; };
 		A3E4EBD926C36C0500D7DFA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E4EBD726C36C0500D7DFA6 /* LaunchScreen.storyboard */; };
@@ -52,10 +53,11 @@
 		A323FC9626C8EA56002576FE /* STCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = STCollectionViewCell.xib; sourceTree = "<group>"; };
 		A35BB8B826C6441900E9FC54 /* STData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STData.swift; sourceTree = "<group>"; };
 		A35BB8BA26C65F3700E9FC54 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A39D5C2226C906D600FB0E78 /* STCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCollectionViewController.swift; sourceTree = "<group>"; };
+		A39D5C2426C949A600FB0E78 /* STTestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTestCollectionViewCell.swift; sourceTree = "<group>"; };
 		A3E4EBC926C36C0200D7DFA6 /* Cuser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E4EBCC26C36C0200D7DFA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3E4EBCE26C36C0200D7DFA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3E4EBD026C36C0200D7DFA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3E4EBD326C36C0200D7DFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3E4EBD526C36C0500D7DFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3E4EBD826C36C0500D7DFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -135,7 +137,6 @@
 			children = (
 				A3E4EBCC26C36C0200D7DFA6 /* AppDelegate.swift */,
 				A3E4EBCE26C36C0200D7DFA6 /* SceneDelegate.swift */,
-				A3E4EBD026C36C0200D7DFA6 /* ViewController.swift */,
 				A3E4EBFC26C3944F00D7DFA6 /* LoginViewController.swift */,
 				A3E4EBFE26C3945900D7DFA6 /* HomeViewController.swift */,
 				A35BB8B826C6441900E9FC54 /* STData.swift */,
@@ -147,7 +148,9 @@
 				A323FC9526C8EA56002576FE /* STCollectionViewCell.swift */,
 				A323FC9626C8EA56002576FE /* STCollectionViewCell.xib */,
 				A3E4EBD726C36C0500D7DFA6 /* LaunchScreen.storyboard */,
+				A39D5C2226C906D600FB0E78 /* STCollectionViewController.swift */,
 				A35BB8BA26C65F3700E9FC54 /* GoogleService-Info.plist */,
+				A39D5C2426C949A600FB0E78 /* STTestCollectionViewCell.swift */,
 				A3E4EBDA26C36C0500D7DFA6 /* Info.plist */,
 			);
 			path = Cuser;
@@ -357,13 +360,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3E4EBFF26C3945900D7DFA6 /* HomeViewController.swift in Sources */,
+				A39D5C2526C949A600FB0E78 /* STTestCollectionViewCell.swift in Sources */,
 				A3E4EC0126C3AAA000D7DFA6 /* MyPageViewController.swift in Sources */,
 				A3E4EBFD26C3944F00D7DFA6 /* LoginViewController.swift in Sources */,
-				A3E4EBD126C36C0200D7DFA6 /* ViewController.swift in Sources */,
 				A323FC9726C8EA56002576FE /* STCollectionViewCell.swift in Sources */,
 				A3E4EBCD26C36C0200D7DFA6 /* AppDelegate.swift in Sources */,
 				A35BB8B926C6441900E9FC54 /* STData.swift in Sources */,
 				A3E4EC0426C3AD6800D7DFA6 /* STListTableViewCell.swift in Sources */,
+				A39D5C2326C906D600FB0E78 /* STCollectionViewController.swift in Sources */,
 				A3E4EBCF26C36C0200D7DFA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
